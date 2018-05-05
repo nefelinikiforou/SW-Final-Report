@@ -15,15 +15,14 @@
 ***\*** **Σημείωση\:** Παραδοτέο 1 και Παραδοτέο 2: Οι αλλαγές στον κώδικα φαίνονται στο branch [gh-pages](https://github.com/nefelinikiforou/D3js-uk-political-donations/tree/gh-pages) του παραπάνω αποθετηρίου. Το master branch χρησιμοποιήθηκε αποκλειστικά για τα ζητούμενα που απαιτούσαν αλλαγές (pull request) στο κοινό αποθετήριο του κώδικα.*
 
 ### Πίνακας Περιεχομένων
-  * [Σύνοψη]()
-  * [Εισαγωγή]()
-  * [Aνάλυση σχετικών έργων και εργαλείων]()
-  * [Mέθοδος και τεχνικές ανάπτυξης]()
-  * [Aποτελέσματα]()
-  * [Bιβλιογραφία και σύνδεσμοι σε σχετικές εργασίες]()
+  * [Σύνοψη](https://github.com/nefelinikiforou/SW-Final-Report/blob/master/README.md#%CE%A3%CF%8D%CE%BD%CE%BF%CF%88%CE%B7)
+  * [Εισαγωγή](https://github.com/nefelinikiforou/SW-Final-Report/blob/master/README.md#%CE%95%CE%B9%CF%83%CE%B1%CE%B3%CF%89%CE%B3%CE%AE)
+  * [Aνάλυση σχετικών έργων και εργαλείων](https://github.com/nefelinikiforou/SW-Final-Report/blob/master/README.md#a%CE%BD%CE%AC%CE%BB%CF%85%CF%83%CE%B7-%CF%83%CF%87%CE%B5%CF%84%CE%B9%CE%BA%CF%8E%CE%BD-%CE%AD%CF%81%CE%B3%CF%89%CE%BD-%CE%BA%CE%B1%CE%B9-%CE%B5%CF%81%CE%B3%CE%B1%CE%BB%CE%B5%CE%AF%CF%89%CE%BD)
+  * [Mέθοδος και τεχνικές ανάπτυξης](https://github.com/nefelinikiforou/SW-Final-Report/blob/master/README.md#m%CE%AD%CE%B8%CE%BF%CE%B4%CE%BF%CF%82-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B5%CF%87%CE%BD%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%BD%CE%AC%CF%80%CF%84%CF%85%CE%BE%CE%B7%CF%82)
+  * [Aποτελέσματα](https://github.com/nefelinikiforou/SW-Final-Report/blob/master/README.md#a%CF%80%CE%BF%CF%84%CE%B5%CE%BB%CE%AD%CF%83%CE%BC%CE%B1%CF%84%CE%B1)
+  * [Bιβλιογραφία και σύνδεσμοι σε σχετικές εργασίες](https://github.com/nefelinikiforou/SW-Final-Report/blob/master/README.md#b%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B1-%CE%BA%CE%B1%CE%B9-%CF%83%CF%8D%CE%BD%CE%B4%CE%B5%CF%83%CE%BC%CE%BF%CE%B9-%CF%83%CE%B5-%CF%83%CF%87%CE%B5%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B5%CF%82)
   
 ## Σύνοψη
-μπλα μπλα
 ## Εισαγωγή
 ## Aνάλυση σχετικών έργων και εργαλείων
 ## Mέθοδος και τεχνικές ανάπτυξης
