@@ -34,5 +34,6 @@
 ## Aνάλυση σχετικών έργων και εργαλείων
 ## Mέθοδος και τεχνικές ανάπτυξης
 ## Aποτελέσματα
+## Συμπεράσματα
 ## Bιβλιογραφία και σύνδεσμοι σε σχετικές εργασίες
 * [Αποθετήριο](https://github.com/neilhawkins/d3-uk-political-donations) και [ιστοσελίδα](http://neilhawkins.github.io/d3-uk-political-donations/full-viz.html)
