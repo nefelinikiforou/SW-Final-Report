@@ -12,6 +12,8 @@
 ##### Link ιστοσελίδας της εφαρμογής μου: [Link εκτελέσιμου](https://nefelinikiforou.github.io/D3js-uk-political-donations/)
 ##### Αποθετήριο του κώδικα της εφαρμογής (master branch) \*: [Link αποθετηρίου κώδικα](https://github.com/nefelinikiforou/D3js-uk-political-donations)
 ##### Link στο κλαδί του κώδικα που αντιστοιχεί στο Παραδοτέο 1 και στο Παραδοτέο 2 (gh-pages branch) \*: [Link branch κώδικα Παραδοτέων](https://github.com/nefelinikiforou/D3js-uk-political-donations/tree/gh-pages)
+##### Link ιστοσελίδας της Τελικής Αναφοράς μου: https://nefelinikiforou.github.io/SW-Final-Report/
+##### Αποθετήριο της Τελικής Αναφοράς μου: https://github.com/nefelinikiforou/SW-Final-Report
 ***\*** **Σημείωση\:** Παραδοτέο 1 και Παραδοτέο 2: Οι αλλαγές στον κώδικα φαίνονται στο branch [gh-pages](https://github.com/nefelinikiforou/D3js-uk-political-donations/tree/gh-pages) του παραπάνω αποθετηρίου. Το master branch χρησιμοποιήθηκε αποκλειστικά για τα ζητούμενα που απαιτούσαν αλλαγές (pull request) στο κοινό αποθετήριο του κώδικα.*
 
 ### Πίνακας Περιεχομένων
@@ -20,6 +22,8 @@
   * Aνάλυση σχετικών έργων και εργαλείων
   * Mέθοδος και τεχνικές ανάπτυξης
   * Aποτελέσματα
+    * Παραδοτέο 1
+    * Παραδοτέο 2
   * Συμπεράσματα
   * Bιβλιογραφία και σύνδεσμοι σε σχετικές εργασίες
   
@@ -35,6 +39,21 @@
 ## Aνάλυση σχετικών έργων και εργαλείων
 ## Mέθοδος και τεχνικές ανάπτυξης
 ## Aποτελέσματα
+#### Παραδοτέο 1
+![colorballs2](https://user-images.githubusercontent.com/22655733/36741492-ef804f0c-1bed-11e8-9fa9-08f6e26dc549.JPG)
+
+*Εικ. 1.1. Αλλαγή χρωμάτων στις μπάλες με τα δεδομένα.*
+
+![colorparty1](https://user-images.githubusercontent.com/22655733/36935907-79041ec8-1f06-11e8-8e61-451003c04f8f.JPG)
+![colorparty2](https://user-images.githubusercontent.com/22655733/36935922-bcb6dbe2-1f06-11e8-9c1f-cbc67d4577f1.JPG)
+
+*Εικ. 1.2. Αλλαγή χρωμάτων στα 3 πεδία της ομαδοποίησης **Split by party** (Αριστερά: Πριν την αλλαγή, Δεξιά: Μετά την αλλαγή).*
+
+![amount-result](https://user-images.githubusercontent.com/22655733/39746245-755bdee8-52b2-11e8-9f6c-920cd02ab18b.JPG)
+
+*Εικ. 1.3. Δημιουργία και προσθήκη νέας επιλογής ομαδοποίησης των δεδομένων (Split by the amount of the donation).*
+#### Παραδοτέο 2
+
 ## Συμπεράσματα
 ## Bιβλιογραφία και σύνδεσμοι σε σχετικές εργασίες
 * [Αποθετήριο](https://github.com/neilhawkins/d3-uk-political-donations) και [ιστοσελίδα](http://neilhawkins.github.io/d3-uk-political-donations/full-viz.html)
