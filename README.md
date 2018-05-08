@@ -285,4 +285,21 @@
 Συνοψίζοντας, στα πλαίσια αυτής της εξαμηνιαίας εργασίας έχει υλοποιηθεί μία νέα, διαδραστική [ιστοσελίδα](https://nefelinikiforou.github.io/D3js-uk-political-donations/) σε HTML5, CSS και JavaScript (κυρίως με τη βοήθεια της βιβλιοθήκης D3 της JavaScript για οπτικοποίηση δεδομένων), βασισμένη σε μία προϋπάρχουσα [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/full-viz.html), πάνω στην οποία έγιναν όλες οι προσθήκες, οι αλλαγές και οι τροποποιήσεις. Παρέχονται οπτικοποιημένα τα στατιστικά στοιχεία των δωρεών που έχουν γίνει σε πολιτικά κόμματα της Μεγάλης Βρετανίας, καθώς και επιπλεόν λειτουργίες επί αυτών. Τέλος, στη νέα ιστοσελίδα επεκτείνονται οι δυνατότητες, η διάδραση και η λειτουργικότητα της αρχικής ιστοσελίδας και γίνεται πλέον κατάλληλη και για χρήστες-αναγνώστες με προβλήματα όρασης, μέσω των δυνατοτήτων της γλώσσας JavaScript για παροχή λειτουργιών μεγέθυνσης κειμένου και text-to-speech.
 
 ## Bιβλιογραφία και σύνδεσμοι σε σχετικές εργασίες
-* [Αποθετήριο](https://github.com/neilhawkins/d3-uk-political-donations) και [ιστοσελίδα](http://neilhawkins.github.io/d3-uk-political-donations/full-viz.html)
+#### Σχετικές εργασίες
+* [Αποθετήριο](https://github.com/ioniodi/D3js-uk-political-donations) και [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/full-viz.html) που βασίστηκε η δική μου εφαρμογή.
+* [Αποθετήριο](https://github.com/neilhawkins/d3-uk-political-donations) και [ιστοσελίδα](http://neilhawkins.github.io/d3-uk-political-donations/full-viz.html) μιας σχετικής εργασίας.
+
+#### Βιβλιοθήκες και πηγές κώδικα
+* [D3.js](https://d3js.org/)
+* [ResponsiveVoice](http://code.responsivevoice.org/responsivevoice.js) (JavaScript) και [API](https://responsivevoice.org/api/) για text-to-speech.
+* [Bιβλιοθήκη](https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js) και [κώδικας](http://tobiasahlin.com/moving-letters/#7) για το text animation.
+* [Πηγή ήχου κουμπιών](http://soundbible.com/) και [mp3 αρχείο](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/Stapler-SoundBible.com-374581609.mp3)
+
+#### Βοηθητικές ιστοσελίδες
+* Hex και RBG [κωδικοί χρωμάτων](https://htmlcolorcodes.com/)
+* [Zoom on hover CSS](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
+* [.addClass() documentation](https://api.jquery.com/addclass/)
+* [Item in array search JavaScript](https://www.w3schools.com/jsref/jsref_indexof_array.asp)
+* [Αrray push JavaScript](https://www.w3schools.com/jsref/jsref_push.asp)
+* [Access specific element HTML](https://www.w3schools.com/jsref/met_document_getelementbyid.asp)
+* [Append node HTML](https://www.w3schools.com/jsref/met_node_appendchild.asp)
