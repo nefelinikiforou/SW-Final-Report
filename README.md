@@ -141,14 +141,17 @@
        ![new-transition-chart-js](https://user-images.githubusercontent.com/22655733/37259189-d7ed4ee2-258b-11e8-8d62-d007e0942d97.JPG)
    
      Τέλος, έβαλα την εντολή:```$("#view-donation-amount").fadeOut(250);``` σε όλες τις υπόλοιπες μεταβάσεις της transition().
+     
   * Έφτιαξα τη συνάρτηση amountsGroup() έχοντας ως πρότυπο τις υπόλοιπες συναρτήσεις (total(), partyGroup(), donorType(), fundsType()):
 
        ![func-amounts-group-chart-js](https://user-images.githubusercontent.com/22655733/37259371-f4862874-258d-11e8-8b32-4a4477ac2774.JPG)
    
       Με την εντολή: ```.on("tick", amounts)``` καλείται η συνάρτηση amounts().
+      
   * Έφτιαξα τη συνάρτηση amounts() έχοντας ως πρότυπο τις υπόλοιπες συναρτήσεις (all(), parties(), entities(), types()):
 
        ![func-amounts-chart-js](https://user-images.githubusercontent.com/22655733/37259414-ab821d58-258e-11e8-9b9c-e7eff6161547.JPG)
+       
   * Δημιούργησα τη συνάρτηση moveToAmounts(alpha), προκειμένου να μετακινηθούν οι κόμβοι στις κατάλληλες θέσεις. Ουσιαστικά, επιλέγεται ένα σταθερό κέντρο για τη θέση Y των κόμβων και, με βάση το value του κάθε κόμβου (το ποσό της δωρεάς), ορίζεται το X σε μία τιμή που αντιστοιχεί στις 6 επιλεγμένες τιμές (Donations over £1m, Donations over £500k, Donations over £100k, Donations over £50k, Donations over £25k, Donations under £25k):
 
        ![func-movetoamounts-chart-js](https://user-images.githubusercontent.com/22655733/37288197-4f23312e-260f-11e8-84b4-2850a0c94d0e.JPG)
@@ -156,6 +159,7 @@
   * Επέλεξα να μην εμφανίζονται αρχικά στη σελίδα τα στοιχεία της ```#view-donation-amount```:
   
        ![disappear-view-style-css](https://user-images.githubusercontent.com/22655733/37288507-26379da8-2610-11e8-8430-66c8deea4d6a.JPG)
+  
   * Όρισα τις θέσεις εμφάνισης του τίτλου "Split by the amount of the donation" και των 6 τίτλων των ποσών (Donations over £1m, Donations over £500k, Donations over £100k, Donations over £50k, Donations over £25k, Donations under £25k):
    
        ![labels-style-css-1](https://user-images.githubusercontent.com/22655733/37288301-90a7795c-260f-11e8-9252-cd7175be46ef.JPG)
@@ -233,10 +237,10 @@
 
         ![avatar_index_html_3](https://user-images.githubusercontent.com/22655733/39665022-911b8d3c-5095-11e8-93ab-ef605e574eca.JPG)
 
-(Βλ. Εικ. 2.2., Ενότητα: "Αποτελέσματα")
-(Βλ. και [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/))
+ (Βλ. Εικ. 2.2., Ενότητα: "Αποτελέσματα")
+ (Βλ. και [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/))
 
-  2. Ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου, προσθέτοντας το δεύτερο παραδοτέο.
+ 2. Ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου, προσθέτοντας το δεύτερο παραδοτέο.
 ## Aποτελέσματα
 #### Παραδοτέο 1
 ![colorballs2](https://user-images.githubusercontent.com/22655733/36741492-ef804f0c-1bed-11e8-9fa9-08f6e26dc549.JPG)
