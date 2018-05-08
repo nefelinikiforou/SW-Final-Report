@@ -119,7 +119,7 @@
 
       ![voice1-chart-js](https://user-images.githubusercontent.com/22655733/37206273-a843df7c-23a0-11e8-85dc-39ef3c7caf9a.JPG)
    
-   Έτσι, ακούγονται οι πληροφορίες του δωρητή για όσο το ποντίκι βρίσκεται εντός του κύκλου του.
+     Έτσι, ακούγονται οι πληροφορίες του δωρητή για όσο το ποντίκι βρίσκεται εντός του κύκλου του.
   3. Στο ίδιο αρχείο, πρόσθεσα στη συνάρτηση mouseout() την εντολή:
 
       ![voice2-chart-js](https://user-images.githubusercontent.com/22655733/37206301-c329bf64-23a0-11e8-8324-0d1bcd12df36.JPG)
@@ -128,41 +128,41 @@
 
 * Δημιουργία και προσθήκη νέας επιλογής ομαδοποίησης των δεδομένων (Split by the amount of the donation):
   1. Στο αρχείο "[index.html](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/index.html)": 
-    * Δημιούργησα το νέο κουμπί κάτω από τα προηγούμενα της λίστας:
+   * Δημιούργησα το νέο κουμπί κάτω από τα προηγούμενα της λίστας:
        ```
        <li><a href="#" onclick="sound.play()" role="button" class="pure-button switch" id="group-by-donation-amount">Split by the amount of the donation</a></li>
        ```
-    * Πρόσθεσα το &lt;div id="view-donation-amount"&gt; κάτω από τα υπόλοιπα &lt;div&gt; ομαδοποίησης:
+   * Πρόσθεσα το &lt;div id="view-donation-amount"&gt; κάτω από τα υπόλοιπα &lt;div&gt; ομαδοποίησης:
 
        ![new-div-index-html](https://user-images.githubusercontent.com/22655733/37247732-86326b82-24c8-11e8-957b-01a014dc99ba.JPG)
   2. Στο αρχείο "[chart.js](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/chart.js)":
-    * Πρόσθεσα στη συνάρτηση transition() μία επιπλέον μετάβαση, η οποία (ενεργοποίηση με κλικ στο νέο κουμπί), φέρνει στο προσκήνιο (fadeIn) το #view-donation-amount, "κρύβει" (fadeOut) όλα τα υπόλοιπα # και επιστρέφει τη συνάρτηση amountsGroup():
+   * Πρόσθεσα στη συνάρτηση transition() μία επιπλέον μετάβαση, η οποία (ενεργοποίηση με κλικ στο νέο κουμπί), φέρνει στο προσκήνιο (fadeIn) το #view-donation-amount, "κρύβει" (fadeOut) όλα τα υπόλοιπα # και επιστρέφει τη συνάρτηση amountsGroup():
 
        ![new-transition-chart-js](https://user-images.githubusercontent.com/22655733/37259189-d7ed4ee2-258b-11e8-8d62-d007e0942d97.JPG)
    
-      Τέλος, έβαλα την εντολή:```$("#view-donation-amount").fadeOut(250);``` σε όλες τις υπόλοιπες μεταβάσεις της transition().
-    * Έφτιαξα τη συνάρτηση amountsGroup() έχοντας ως πρότυπο τις υπόλοιπες συναρτήσεις (total(), partyGroup(), donorType(), fundsType()):
+     Τέλος, έβαλα την εντολή:```$("#view-donation-amount").fadeOut(250);``` σε όλες τις υπόλοιπες μεταβάσεις της transition().
+   * Έφτιαξα τη συνάρτηση amountsGroup() έχοντας ως πρότυπο τις υπόλοιπες συναρτήσεις (total(), partyGroup(), donorType(), fundsType()):
 
        ![func-amounts-group-chart-js](https://user-images.githubusercontent.com/22655733/37259371-f4862874-258d-11e8-8b32-4a4477ac2774.JPG)
    
       Με την εντολή: ```.on("tick", amounts)``` καλείται η συνάρτηση amounts().
-    * Έφτιαξα τη συνάρτηση amounts() έχοντας ως πρότυπο τις υπόλοιπες συναρτήσεις (all(), parties(), entities(), types()):
+   * Έφτιαξα τη συνάρτηση amounts() έχοντας ως πρότυπο τις υπόλοιπες συναρτήσεις (all(), parties(), entities(), types()):
 
        ![func-amounts-chart-js](https://user-images.githubusercontent.com/22655733/37259414-ab821d58-258e-11e8-9b9c-e7eff6161547.JPG)
-    * Δημιούργησα τη συνάρτηση moveToAmounts(alpha), προκειμένου να μετακινηθούν οι κόμβοι στις κατάλληλες θέσεις. Ουσιαστικά, επιλέγεται ένα σταθερό κέντρο για τη θέση Y των κόμβων και, με βάση το value του κάθε κόμβου (το ποσό της δωρεάς), ορίζεται το X σε μία τιμή που αντιστοιχεί στις 6 επιλεγμένες τιμές (Donations over £1m, Donations over £500k, Donations over £100k, Donations over £50k, Donations over £25k, Donations under £25k):
+   * Δημιούργησα τη συνάρτηση moveToAmounts(alpha), προκειμένου να μετακινηθούν οι κόμβοι στις κατάλληλες θέσεις. Ουσιαστικά, επιλέγεται ένα σταθερό κέντρο για τη θέση Y των κόμβων και, με βάση το value του κάθε κόμβου (το ποσό της δωρεάς), ορίζεται το X σε μία τιμή που αντιστοιχεί στις 6 επιλεγμένες τιμές (Donations over £1m, Donations over £500k, Donations over £100k, Donations over £50k, Donations over £25k, Donations under £25k):
 
        ![func-movetoamounts-chart-js](https://user-images.githubusercontent.com/22655733/37288197-4f23312e-260f-11e8-84b4-2850a0c94d0e.JPG)
   3. Στο αρχείο "[style.css](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/style.css)" :
-    * Επέλεξα να μην εμφανίζονται αρχικά στη σελίδα τα στοιχεία της ```#view-donation-amount```:
+   * Επέλεξα να μην εμφανίζονται αρχικά στη σελίδα τα στοιχεία της ```#view-donation-amount```:
   
        ![disappear-view-style-css](https://user-images.githubusercontent.com/22655733/37288507-26379da8-2610-11e8-8430-66c8deea4d6a.JPG)
-    * Όρισα τις θέσεις εμφάνισης του τίτλου "Split by the amount of the donation" και των 6 τίτλων των ποσών (Donations over £1m, Donations over £500k, Donations over £100k, Donations over £50k, Donations over £25k, Donations under £25k):
+   * Όρισα τις θέσεις εμφάνισης του τίτλου "Split by the amount of the donation" και των 6 τίτλων των ποσών (Donations over £1m, Donations over £500k, Donations over £100k, Donations over £50k, Donations over £25k, Donations under £25k):
    
        ![labels-style-css-1](https://user-images.githubusercontent.com/22655733/37288301-90a7795c-260f-11e8-9252-cd7175be46ef.JPG)
    
        ![labels-style-css-2](https://user-images.githubusercontent.com/22655733/37288330-aa8320a6-260f-11e8-9b38-e9925255bdb5.JPG)
 
-      Για την εύρεση των κατάλληλων pixel, χρησιμοποίησα την επέκταση του Google Chrome, *Page Ruler*:
+     Για την εύρεση των κατάλληλων pixel, χρησιμοποίησα την επέκταση του Google Chrome, *Page Ruler*:
 
        ![pageruler](https://user-images.githubusercontent.com/22655733/37301526-77e6b776-2631-11e8-9680-2884296f53d8.JPG)
        
@@ -191,7 +191,7 @@
    
       ![pixels_sidebar](https://user-images.githubusercontent.com/22655733/39742854-b438c1ae-52a7-11e8-90b0-5778f4cd379e.JPG)
    
-   Χρωμάτισα το πλαίσιο προσωρινά (```background-color: light-blue;```), ώστε να ελέγχω ότι οι εικόνες τοποθετούνται σωστά:
+     Χρωμάτισα το πλαίσιο προσωρινά (```background-color: light-blue;```), ώστε να ελέγχω ότι οι εικόνες τοποθετούνται σωστά:
    
       ![sidebar_1st_attempt](https://user-images.githubusercontent.com/22655733/39743105-9027a1da-52a8-11e8-8f98-ebd1602496bd.JPG)
   3. Στο αρχείο "[chart.js](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/chart.js)":
@@ -235,7 +235,7 @@
 (Βλ. Εικ. 2.2., Ενότητα: "Αποτελέσματα")
 (Βλ. και [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/))
 
-* Ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου, προσθέτοντας το δεύτερο παραδοτέο.
+  2. Ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου, προσθέτοντας το δεύτερο παραδοτέο.
 ## Aποτελέσματα
 #### Παραδοτέο 1
 ![colorballs2](https://user-images.githubusercontent.com/22655733/36741492-ef804f0c-1bed-11e8-9fa9-08f6e26dc549.JPG)
