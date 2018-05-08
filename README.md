@@ -39,6 +39,19 @@
 ## Εισαγωγή
 
 ## Aνάλυση σχετικών έργων και εργαλείων
+Η ιστοσελίδα μου βασίστηκε στο σχετικό [αποθετήριο του github](https://github.com/ioniodi/D3js-uk-political-donations), που [οπτικοποιεί](https://ioniodi.github.io/D3js-uk-political-donations/full-viz.html) τα στατιστικά στοιχεία των δωρεών που έχουν γίνει σε πολιτικά κόμματα της Μεγάλης Βρετανίας, και το οποίο έκανα fork ώστε να το τροποποιήσω κατάλληλα με βάση τις απαιτήσεις-ζητούμενα των παραδοτέων της εξαμηνιαίας εργασίας. Επίσης, μια παρόμοια εργασία είναι και αυτή: [Αποθετήριο](https://github.com/neilhawkins/d3-uk-political-donations) και [ιστοσελίδα](http://neilhawkins.github.io/d3-uk-political-donations/full-viz.html).
+
+Αναφορικά με τα εργαλεία που χρησιμοποίησα, τα βασικότερα είναι η ιστοσελίδα του Github και το σύστημα Github Pages, καθώς μέσω αυτών επεξεργάστηκα τον κώδικα (αρχεία "[index.html](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/index.html)", "[chart.js](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/chart.js)" και "[style.css](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/style.css)"), επειδή μου δίνουν τη δυνατότητα να κάνω δοκιμές και να βλέπω άμεσα το αποτέλεσμα των ενεργειών μου (προσθήκες/αλλαγές/τροποποιήσεις) στην ιστοσελίδα της εφαρμογής μου. Επιπλέον, στο [API του Github](https://api.github.com/users/nefelinikiforou) βρήκα όλες τις πληροφορίες μου σαν χρήστης του Github για τα ζητούμενα που χρειάστηκε.
+
+Για την επεξεργασία των 5 εικόνων των δωρητών που πρόσθεσα στο φάκελο [photos](https://github.com/ioniodi/D3js-uk-political-donations/tree/master/photos), χρησιμοποίησα ένα [online resizing tool](http://picresize.com/), ενώ οι εικόνες που φαίνονται στα παραδοτέα και στην τελική αναφορά είναι screenshots που έχουν δημιουργηθεί με το "Snipping Tool" των Windows.
+
+Για τον εντοπισμό των pixels που χρειαζόμουν για να καθορίσω την ακριβή τοποθεσία διάφορων στοιχείων στην ιστοσελίδα της εφαρμογής μου, χρησιμοποίησα την επέκταση του Google Chrome, "Page Ruler". Τέλος, χρησιμοποίησα τα "Εργάλεια για Προγραμματιστές" του browser Google Chrome, προκειμένου να έχω τη δυνατότητα να ελέγχω την ορθότητα και να εντοπίζω τα σφάλματα του κώδικά μου.
+
+Χρήσιμες βιβλιοθήκες αποτέλεσαν:
+* η D3 της JavaScript.
+* η [ResponsiveVoice](http://code.responsivevoice.org/responsivevoice.js) (JavaScript) για text-to-speech.
+* η [βιβλιοθήκη](https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js) για το text animation (Βλ. [ιστοσελίδα participants](https://ioniodi.github.io/D3js-uk-political-donations/participants/)).
+
 
 ## Mέθοδος και τεχνικές ανάπτυξης
 #### Παραδοτέο 1 - Ζητούμενα
