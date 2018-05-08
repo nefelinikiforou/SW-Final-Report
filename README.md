@@ -21,8 +21,8 @@
   * Εισαγωγή
   * Aνάλυση σχετικών έργων και εργαλείων
   * Mέθοδος και τεχνικές ανάπτυξης
-    * Παραδοτέο 1
-    * Παραδοτέο 2
+    * Παραδοτέο 1 - Ζητούμενα
+    * Παραδοτέο 2 - Ζητούμενα
   * Aποτελέσματα
     * Παραδοτέο 1
     * Παραδοτέο 2
@@ -41,7 +41,7 @@
 ## Aνάλυση σχετικών έργων και εργαλείων
 
 ## Mέθοδος και τεχνικές ανάπτυξης
-#### Παραδοτέο 1
+#### Παραδοτέο 1 - Ζητούμενα
 * [Ιστοσελίδα εφαρμογής](https://nefelinikiforou.github.io/D3js-uk-political-donations/)
 
 * Αλλαγή κατάληξης url της εφαρμογής μου από "full-viz.html", μετονομάζοντας το αντίστοιχο αρχείο σε "[index.html](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/index.html)":
@@ -177,72 +177,65 @@
      * Independent Print (808)
      * Seamark (705)
 
-#### Παραδοτέο 2
-#### Εμφάνιση και επέκταση σειράς εικόνων δωρητών (ενεργοποίηση όταν το ποντίκι βρίσκεται μέσα σε κύκλο δωρητή)
-Προκειμένου όταν το ποντίκι εισέρχεται σε έναν από τους κύκλους του γραφήματος να εμφανίζεται (και να επεκτείνεται δυναμικά) σε μια ορισμένη περιοχή της ιστοσελίδας του γραφήματος η σειρά των εικόνων με τους δωρητές πάνω από τους οποίους έχει περάσει ο δείκτης του ποντικιού του χρήστη, τροποποίησα τον κώδικα της εφαρμογής μου ως εξής:
+#### Παραδοτέο 2 - Ζητούμενα
+* Εμφάνιση και δυναμική επέκταση σειράς εικόνων δωρητών (ενεργοποίηση όταν το ποντίκι βρίσκεται μέσα σε κύκλο δωρητή):
 
-1. Στο αρχείο "index.html" ([Βλ. και αποθετήριο](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/index.html)), πρόσθεσα ένα νέο &lt;div&gt; tag για τη δημιουργία μιας περιοχής για τις εικόνες των δωρητών, πάνω από τους κύκλους των οποίων έχει περάσει ο δείκτης του ποντικιού του χρήστη:
+  1. Στο αρχείο "[index.html](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/index.html)", πρόσθεσα ένα νέο &lt;div&gt; tag για τη δημιουργία μιας περιοχής για τις εικόνες των δωρητών, πάνω από τους κύκλους των οποίων έχει περάσει ο δείκτης του ποντικιού του χρήστη:
 
-   ![img_sidebar_html](https://user-images.githubusercontent.com/22655733/39702847-c625c900-520e-11e8-8de7-1d0c9c5b3cd7.JPG)
-2. Στο αρχείο "style.css" ([Βλ. και αποθετήριο](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/style.css)), πρόσθεσα το εξής πλαίσιο:
+      ![img_sidebar_html](https://user-images.githubusercontent.com/22655733/39702847-c625c900-520e-11e8-8de7-1d0c9c5b3cd7.JPG)
+  2. Στο αρχείο "[style.css](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/style.css)", πρόσθεσα το πλαίσιο:
 
-   ![img_sidebar_css](https://user-images.githubusercontent.com/22655733/39702982-4a2baba2-520f-11e8-8c0f-621786d98512.JPG)
+      ![img_sidebar_css](https://user-images.githubusercontent.com/22655733/39702982-4a2baba2-520f-11e8-8c0f-621786d98512.JPG)
    
-   για να ορίσω το μέγεθος (ύψος: 42 pixels, καθώς οι εικόνες των δωρητών έχουν διαστάσεις 42x42) της περιοχής για τις εικόνες των δωρητών που έχουν προσπελαστεί, καθώς και την τοποθεσία της στην ιστοσελίδα. Με τη βοήθεια της επέκτασης του Google Chrome, *Page Ruler*, εντόπισα τα pixel για τη θέση του πλαισίου στην ιστοσελίδα:
+     για να ορίσω το μέγεθος (ύψος: 42 pixels, καθώς οι εικόνες των δωρητών έχουν διαστάσεις 42x42) της περιοχής για τις εικόνες των δωρητών που έχουν προσπελαστεί, καθώς και την τοποθεσία της στην ιστοσελίδα. Με τη βοήθεια της επέκτασης του Google Chrome, *Page Ruler*, εντόπισα τα pixel για τη θέση του πλαισίου στην ιστοσελίδα:
    
-   ![pixels_sidebar](https://user-images.githubusercontent.com/22655733/39742854-b438c1ae-52a7-11e8-90b0-5778f4cd379e.JPG)
+      ![pixels_sidebar](https://user-images.githubusercontent.com/22655733/39742854-b438c1ae-52a7-11e8-90b0-5778f4cd379e.JPG)
    
    Χρωμάτισα το πλαίσιο προσωρινά (```background-color: light-blue;```), ώστε να ελέγχω ότι οι εικόνες τοποθετούνται σωστά:
    
-   ![sidebar_1st_attempt](https://user-images.githubusercontent.com/22655733/39743105-9027a1da-52a8-11e8-8f98-ebd1602496bd.JPG)
-3. Στο αρχείο "chart.js" ([Βλ. και αποθετήριο](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/chart.js)):
-  * Όρισα μία νέα global μεταβλητή (κενό array) για να μετράω πόσες φορές έχει προσπελαστεί και εμφανιστεί η εικόνα κάθε δωρητή στο πλαίσιο, έτσι ώστε να αποφύγω την πολλαπλή εμφάνιση των ίδιων εικόνων (όταν το ποντίκι ξαναπερνάει πάνω από τον ίδιο κύκλο δωρητή):
+      ![sidebar_1st_attempt](https://user-images.githubusercontent.com/22655733/39743105-9027a1da-52a8-11e8-8f98-ebd1602496bd.JPG)
+  3. Στο αρχείο "[chart.js](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/chart.js)":
+    * Όρισα μία νέα global μεταβλητή (κενό array) για να μετράω πόσες φορές έχει προσπελαστεί και εμφανιστεί η εικόνα κάθε δωρητή στο πλαίσιο, έτσι ώστε να αποφύγω την πολλαπλή εμφάνιση των ίδιων εικόνων (όταν το ποντίκι ξαναπερνάει πάνω από τον ίδιο κύκλο δωρητή):
   
       ![img_sidebar_js1](https://user-images.githubusercontent.com/22655733/39716346-c7901d84-5238-11e8-8728-79b07cc61c29.JPG)
-  * Πρόσθεσα στη συνάρτηση mouseover(d,i) το εξής:
+    * Πρόσθεσα στη συνάρτηση mouseover(d,i):
 
       ![img_sidebar_js2](https://user-images.githubusercontent.com/22655733/39721439-4318e882-5248-11e8-8a2c-64f460b39af2.JPG)
       
-    Με τον έλεγχο της επιστρεφόμενης τιμής της συνάρτησης dlist.indexOf(donor) να μην είναι μεγαλύτερη από -1, εξασφαλίζεται ότι θα εμφανιστούν στο πλαίσιο μόνο οι εικόνες των δωρητών που δεν έχουν ξαναεμφανιστεί. Επιπλέον, θέτω τις διαστάσεις όλων των εικόνων στα 42x42 pixels (```element.setAttribute("height", "42"); element.setAttribute("width", "42");```), προκειμένου να εμφανίζονται ομοιόμορφες. Με κάθε νέα εικόνα δωρητή, η σειρά των εικόνων επεκτείνεται δυναμικά (```document.getElementById("images-sidebar").appendChild(element); dlist.push(donor);```)
+      Με τον έλεγχο της επιστρεφόμενης τιμής της συνάρτησης dlist.indexOf(donor) να μην είναι μεγαλύτερη από -1, εξασφαλίζεται ότι θα εμφανιστούν στο πλαίσιο μόνο οι εικόνες των δωρητών που δεν έχουν ξαναεμφανιστεί. Επιπλέον, θέτω τις διαστάσεις όλων των εικόνων στα 42x42 pixels (```element.setAttribute("height", "42"); element.setAttribute("width", "42");```), προκειμένου να εμφανίζονται ομοιόμορφες. Με κάθε νέα εικόνα δωρητή, η σειρά των εικόνων επεκτείνεται δυναμικά (```document.getElementById("images-sidebar").appendChild(element); dlist.push(donor);```)
     
-4. Στο αρχείο "style.css" ([Βλ. και αποθετήριο](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/style.css)), αφαιρώ το περιττό background color του πλαισίου:
+  4. Στο αρχείο "[style.css](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/style.css)", αφαιρώ το περιττό background color του πλαισίου:
 
    ![img_sidebar_css2](https://user-images.githubusercontent.com/22655733/39724828-820cd030-5252-11e8-94e0-e13b67d8af81.JPG)
    
-##### Τελικό αποτέλεσμα:
-
-![final](https://user-images.githubusercontent.com/22655733/39743172-c33be73e-52a8-11e8-8273-f9c5c51c0976.JPG)
-
+(Βλ. Εικ. 2.1., Ενότητα: "Αποτελέσματα")
 (Βλ. και [ιστοσελίδα](https://nefelinikiforou.github.io/D3js-uk-political-donations/))
       
-#### Ζητούμενα που απαιτούν pull request
-Προκειμένου να εμφανίζονται τα στοιχεία μου (github username & picture) με κάποια κίνηση στην [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/) με τους φοιτητές της άσκησης, έκανα τις παρακάτω ενέργειες:
+* Ζητούμενα που απαιτούν pull request
+  1. Εμφάνιση των στοιχείων μου (github username & picture) με κάποια κίνηση στην [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/) με τους φοιτητές της άσκησης:
 
-1. Δήλωσα στο [Issue του Παραδοτέου 2](https://github.com/ioniodi/D3js-uk-political-donations/issues/17) τη δέσμευση της θέσης "Position #014" στον [κώδικα](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/index.html) της ιστοσελίδας:
+    * Δήλωσα στο [Issue του Παραδοτέου 2](https://github.com/ioniodi/D3js-uk-political-donations/issues/17) τη δέσμευση της θέσης "Position #014" στον [κώδικα](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/index.html) της ιστοσελίδας:
 
-   ![issue](https://user-images.githubusercontent.com/22655733/39665515-5093f156-509e-11e8-9f47-85944c20c592.JPG)
+        ![issue](https://user-images.githubusercontent.com/22655733/39665515-5093f156-509e-11e8-9f47-85944c20c592.JPG)
 
-2. Στο [API του Github](https://api.github.com/users/nefelinikiforou) βρήκα όλες τις πληροφορίες μου σαν χρήστης του Github και, συγκεκριμένα, το url για το avatar μου, το οποίο χρειάζεται ώστε να εμφανίζεται η εικόνα προφίλ μου:
+    * Στο [API του Github](https://api.github.com/users/nefelinikiforou) βρήκα όλες τις πληροφορίες μου σαν χρήστης του Github και, συγκεκριμένα, το url για το avatar μου, το οποίο χρειάζεται ώστε να εμφανίζεται η εικόνα προφίλ μου:
 
-   ![avatar](https://user-images.githubusercontent.com/22655733/39664939-77eeff5c-5094-11e8-8454-dd4436301b35.JPG)
+        ![avatar](https://user-images.githubusercontent.com/22655733/39664939-77eeff5c-5094-11e8-8454-dd4436301b35.JPG)
 
-   ![avatar_img](https://user-images.githubusercontent.com/22655733/39664956-c8123bac-5094-11e8-9b5c-7f3486862909.JPG)
+        ![avatar_img](https://user-images.githubusercontent.com/22655733/39664956-c8123bac-5094-11e8-9b5c-7f3486862909.JPG)
 
-3. Στο φάκελο [participants](https://github.com/ioniodi/D3js-uk-political-donations/tree/master/participants) μετέτρεψα το αρχείο [index.html](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/index.html) στη θέση που είχα δεσμεύσει (Position #014), αρχικά ορίζοντας το url για το avatar μου και το username μου και, έπειτα, xρησιμοποιώντας τη [βιβλιοθήκη](https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js) (την οποία εμπεριείχε ήδη το αρχείο) και μετατρέποντας κατάλληλα τον open source [κώδικα](http://tobiasahlin.com/moving-letters/#7) για text animation που βρήκα, ως εξής:
+    * Στο φάκελο [participants](https://github.com/ioniodi/D3js-uk-political-donations/tree/master/participants) μετέτρεψα το αρχείο "[index.html](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/index.html)" στη θέση που είχα δεσμεύσει (Position #014), αρχικά ορίζοντας το url για το avatar μου και το username μου και, έπειτα, xρησιμοποιώντας τη [βιβλιοθήκη](https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js) (την οποία εμπεριείχε ήδη το αρχείο) και μετατρέποντας κατάλληλα τον open source [κώδικα](http://tobiasahlin.com/moving-letters/#7) για text animation που βρήκα, ως εξής:
 
-   ![avatar_index_hml_1](https://user-images.githubusercontent.com/22655733/39665012-641b37d8-5095-11e8-8d0e-de162231f886.JPG)
+        ![avatar_index_hml_1](https://user-images.githubusercontent.com/22655733/39665012-641b37d8-5095-11e8-8d0e-de162231f886.JPG)
 
-   ![avatar_index_html_2](https://user-images.githubusercontent.com/22655733/39665018-821f5606-5095-11e8-84b0-1143e6fb022e.JPG)
+        ![avatar_index_html_2](https://user-images.githubusercontent.com/22655733/39665018-821f5606-5095-11e8-84b0-1143e6fb022e.JPG)
 
-   ![avatar_index_html_3](https://user-images.githubusercontent.com/22655733/39665022-911b8d3c-5095-11e8-93ab-ef605e574eca.JPG)
+        ![avatar_index_html_3](https://user-images.githubusercontent.com/22655733/39665022-911b8d3c-5095-11e8-93ab-ef605e574eca.JPG)
 
-   
-   Με αποτέλεσμα:
-
-   ![anim-pict](https://user-images.githubusercontent.com/22655733/39665455-45b08e1c-509d-11e8-9620-18162508a4c8.JPG)
+(Βλ. Εικ. 2.2., Ενότητα: "Αποτελέσματα")
 (Βλ. και [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/))
 
-Επιπλέον, ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου προσθέτοντας το δεύτερο παραδοτέο.
+* Ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου, προσθέτοντας το δεύτερο παραδοτέο.
 ## Aποτελέσματα
 #### Παραδοτέο 1
 ![colorballs2](https://user-images.githubusercontent.com/22655733/36741492-ef804f0c-1bed-11e8-9fa9-08f6e26dc549.JPG)
