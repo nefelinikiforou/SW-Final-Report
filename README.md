@@ -128,11 +128,13 @@
 
 * Δημιουργία και προσθήκη νέας επιλογής ομαδοποίησης των δεδομένων (Split by the amount of the donation):
   1. Στο αρχείο "[index.html](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/index.html)": 
-  * Δημιούργησα το νέο κουμπί κάτω από τα προηγούμενα της λίστας:
+ * Δημιούργησα το νέο κουμπί κάτω από τα προηγούμενα της λίστας:
+ 
        ```
       <li><a href="#" onclick="sound.play()" role="button" class="pure-button switch" id="group-by-donation-amount">Split by the amount of the donation</a></li>
       ```
-  * Πρόσθεσα το &lt;div id="view-donation-amount"&gt; κάτω από τα υπόλοιπα &lt;div&gt; ομαδοποίησης:
+      
+ * Πρόσθεσα το &lt;div id="view-donation-amount"&gt; κάτω από τα υπόλοιπα &lt;div&gt; ομαδοποίησης:
 
        ![new-div-index-html](https://user-images.githubusercontent.com/22655733/37247732-86326b82-24c8-11e8-957b-01a014dc99ba.JPG)
   2. Στο αρχείο "[chart.js](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/chart.js)":
@@ -207,7 +209,7 @@
 
       ![img_sidebar_js2](https://user-images.githubusercontent.com/22655733/39721439-4318e882-5248-11e8-8a2c-64f460b39af2.JPG)
       
-      Με τον έλεγχο της επιστρεφόμενης τιμής της συνάρτησης dlist.indexOf(donor) να μην είναι μεγαλύτερη από -1, εξασφαλίζεται ότι θα εμφανιστούν στο πλαίσιο μόνο οι εικόνες των δωρητών που δεν έχουν ξαναεμφανιστεί. Επιπλέον, θέτω τις διαστάσεις όλων των εικόνων στα 42x42 pixels (```element.setAttribute("height", "42"); element.setAttribute("width", "42");```), προκειμένου να εμφανίζονται ομοιόμορφες. Με κάθε νέα εικόνα δωρητή, η σειρά των εικόνων επεκτείνεται δυναμικά (```document.getElementById("images-sidebar").appendChild(element); dlist.push(donor);```)
+       Με τον έλεγχο της επιστρεφόμενης τιμής της συνάρτησης dlist.indexOf(donor) να μην είναι μεγαλύτερη από -1, εξασφαλίζεται ότι θα εμφανιστούν στο πλαίσιο μόνο οι εικόνες των δωρητών που δεν έχουν ξαναεμφανιστεί. Επιπλέον, θέτω τις διαστάσεις όλων των εικόνων στα 42x42 pixels (```element.setAttribute("height", "42"); element.setAttribute("width", "42");```), προκειμένου να εμφανίζονται ομοιόμορφες. Με κάθε νέα εικόνα δωρητή, η σειρά των εικόνων επεκτείνεται δυναμικά (```document.getElementById("images-sidebar").appendChild(element); dlist.push(donor);```)
     
   4. Στο αρχείο "[style.css](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/style.css)", αφαιρώ το περιττό background color του πλαισίου:
 
@@ -237,10 +239,10 @@
 
         ![avatar_index_html_3](https://user-images.githubusercontent.com/22655733/39665022-911b8d3c-5095-11e8-93ab-ef605e574eca.JPG)
 
- (Βλ. Εικ. 2.2., Ενότητα: "Αποτελέσματα")
- (Βλ. και [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/))
+   (Βλ. Εικ. 2.2., Ενότητα: "Αποτελέσματα")
+   (Βλ. και [ιστοσελίδα](https://ioniodi.github.io/D3js-uk-political-donations/participants/))
 
- 2. Ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου, προσθέτοντας το δεύτερο παραδοτέο.
+  2. Ενημέρωσα το [αρχείο .csv](https://github.com/ioniodi/D3js-uk-political-donations/blob/master/participants/2015054.csv) με τα στοιχεία μου, προσθέτοντας το δεύτερο παραδοτέο.
 ## Aποτελέσματα
 #### Παραδοτέο 1
 ![colorballs2](https://user-images.githubusercontent.com/22655733/36741492-ef804f0c-1bed-11e8-9fa9-08f6e26dc549.JPG)
