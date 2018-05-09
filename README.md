@@ -28,6 +28,10 @@
     * Παραδοτέο 2
   * Συμπεράσματα
   * Bιβλιογραφία και σύνδεσμοι σε σχετικές εργασίες
+    * Σχετικές εργασίες
+    * Βιβλιοθήκες και πηγές κώδικα
+    * Βοηθητικές ιστοσελίδες
+    * Άλλα
   
 ## Σύνοψη
 Το παρόν έγγραφο αποτελεί την τελική αναφορά της εξαμηνιαίας εργασίας με τίτλο "Οπτικοποίηση δεδομένων χορηγιών (UK)" της φοιτήτριας Μαρία-Νεφέλη Νικηφόρου (ΑΜ Π2015054), η οποία εντάσσεται στα πλαίσια του μαθήματος "Τεχνολογία Λογισμικού" του ΣΤ' Εαρινού Εξαμήνου 2018 με διδάσκων τον κ. Χωριανόπουλο.
@@ -290,16 +294,20 @@
 * [Αποθετήριο](https://github.com/neilhawkins/d3-uk-political-donations) και [ιστοσελίδα](http://neilhawkins.github.io/d3-uk-political-donations/full-viz.html) μιας σχετικής εργασίας.
 
 #### Βιβλιοθήκες και πηγές κώδικα
-* [D3.js](https://d3js.org/)
+* [D3.js](https://d3js.org/).
 * [ResponsiveVoice](http://code.responsivevoice.org/responsivevoice.js) (JavaScript) και [API](https://responsivevoice.org/api/) για text-to-speech.
 * [Bιβλιοθήκη](https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js) και [κώδικας](http://tobiasahlin.com/moving-letters/#7) για το text animation.
-* [Πηγή ήχου κουμπιών](http://soundbible.com/) και [mp3 αρχείο](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/Stapler-SoundBible.com-374581609.mp3)
+* [Πηγή ήχου κουμπιών](http://soundbible.com/) και [mp3 αρχείο](https://github.com/nefelinikiforou/D3js-uk-political-donations/blob/gh-pages/Stapler-SoundBible.com-374581609.mp3).
 
 #### Βοηθητικές ιστοσελίδες
-* Hex και RBG [κωδικοί χρωμάτων](https://htmlcolorcodes.com/)
-* [Zoom on hover CSS](https://www.w3schools.com/howto/howto_css_zoom_hover.asp)
-* [.addClass() documentation](https://api.jquery.com/addclass/)
-* [Item in array search JavaScript](https://www.w3schools.com/jsref/jsref_indexof_array.asp)
-* [Αrray push JavaScript](https://www.w3schools.com/jsref/jsref_push.asp)
-* [Access specific element HTML](https://www.w3schools.com/jsref/met_document_getelementbyid.asp)
-* [Append node HTML](https://www.w3schools.com/jsref/met_node_appendchild.asp)
+* Hex και RBG [κωδικοί χρωμάτων](https://htmlcolorcodes.com/).
+* [Zoom on hover CSS](https://www.w3schools.com/howto/howto_css_zoom_hover.asp).
+* [.addClass() documentation](https://api.jquery.com/addclass/).
+* [Item in array search JavaScript](https://www.w3schools.com/jsref/jsref_indexof_array.asp).
+* [Αrray push JavaScript](https://www.w3schools.com/jsref/jsref_push.asp).
+* [Image object HTML](https://www.w3schools.com/jsref/dom_obj_image.asp) και [Image element JavaScript](http://www.java2s.com/Code/JavaScript/HTML/Imageelement.htm).
+* [Access specific element HTML](https://www.w3schools.com/jsref/met_document_getelementbyid.asp).
+* [Append node HTML](https://www.w3schools.com/jsref/met_node_appendchild.asp).
+
+#### Άλλα
+* Ενδιαφέρουσα [ομιλία](https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization?language=el#t-1076216) του David McCandless για Data Visualization (TED talks 2010).
